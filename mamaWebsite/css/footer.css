@@ -1,0 +1,77 @@
+.footerBg{
+    width: 100%;
+    background: #363e44;
+}
+.footerBox{
+    height: 3.18rem;
+    width: 11rem;
+    margin: auto;
+    color: #8994a5;
+    font-size: 0.14rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerBox .row {
+    padding: 0;
+    margin: 0;
+    width: 11rem;
+}
+.footerBox .row div{
+    text-align: center
+}
+.footerBox .row div>p:first-child{
+    margin: 0;
+    padding-top: 0.1rem;
+}
+.footerDiv div{
+    border: 0.01rem solid #8994a5;
+}
+.footerDiv div>p:first-child{
+    font-size: 0.28rem;
+    font-weight: 700;
+}
+@media (max-width:768px) {
+    .footerBox{
+        width: auto;
+        height: auto;
+    }
+    .row{
+        width: auto;
+    }
+    .footerDiv{
+        margin: 0.2rem 0;
+    }
+    .footerBox .row{
+        padding: 0 0.2rem;
+    }
+    /*.footerDiv div{*/
+        /*width:30%;*/
+        /*padding: 0.1rem;*/
+        /*margin:0.1rem auto;*/
+    /*}*/
+    /*.footerDiv div>p:first-child{*/
+        /*font-size: 0.12rem;*/
+    /*}*/
+
+}
+.foot_ft{
+	text-align: center;
+	width: 100%;
+	margin-bottom: .2rem;
+}
+.foot_ft a {
+	margin-right: 12px;
+	margin-left: 12px;
+	display: inline-block;
+	width: 88px;
+	height: 35px;
+	background: url(https://www.mamaqunaer.com/images/common/foot_b.jpg) no-repeat;
+	vertical-align: middle;
+}
+.foot_ft p {
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px
+}
+

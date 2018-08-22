@@ -1,0 +1,586 @@
+/*!* 小屏幕（平板，大于等于 768px） *!*/
+/*@media (min-width: @screen-sm-min) { ... }*/
+
+/*!* 中等屏幕（桌面显示器，大于等于 992px） *!*/
+/*@media (min-width: @screen-md-min) { ... }*/
+
+/*!* 大屏幕（大桌面显示器，大于等于 1200px） *!*/
+/*@media (min-width: @screen-lg-min) { ... }*/
+
+/*@media (max-width: @screen-xs-max) { ... }*/
+/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }*/
+/*@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }*/
+/*@media (min-width: @screen-lg-min) { ... }*/
+
+.headline{
+    width: 11rem;
+    text-align: center;
+    margin: 0.4rem auto;
+}
+
+/********************************首页CSS***********************************/
+
+/*轮播店铺*/
+#contentIndex{
+
+}
+.bander01{
+    background: url("../image/01.jpg")no-repeat center;
+    width: 100%;
+    height: 5.8rem;
+    background-size: cover;
+}
+.bander02{
+    background: url("../image/02.jpg")no-repeat center;
+    width: 100%;
+    height: 5.8rem;
+    background-size: cover;
+}
+.bander03{
+    background: url("../image/03.jpg")no-repeat center;
+    width: 100%;
+    height: 5.8rem;
+    background-size: cover;
+}
+#contentIndex .carousel-indicators{
+    position: absolute;
+    bottom: 0.1rem;
+    margin-bottom: 0;
+}
+#contentIndex .carousel-inner{
+    width: 100%;
+}
+.rowtext{
+    font-size: 0.1rem;
+    padding: 0 0.15rem;
+}
+.ulsIndex{
+    margin-left: 0.2rem;
+}
+.ulsIndex li{
+    list-style: square;
+    margin-top: 0.15rem;
+}
+.pconrIndex{
+    margin: 0.2rem 0;
+}
+.buttonIndex{
+    width: 1.3rem;
+    height: 0.4rem;
+    background: #388bfc;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: white;
+    cursor: pointer;
+    border: 0.01rem solid #388bfb;
+}
+.buttonIndex:hover{
+    background: white;
+    color: #388bfb;
+    transition: 1s;
+}
+.rowIndex{
+    padding: 0.6rem 0;
+}
+
+/*伙伴*/
+.peoImgBox img{
+    width: 100%;
+}
+.fistIndeximg{
+    margin-left: -0.3rem;
+}
+.leftIndex{
+    padding-right: 0.1rem;
+}
+.cententIndex{
+    padding: 0 0.05rem;
+}
+.rightIndex{
+    padding-left: 0.1rem;
+}
+.peoImgBox{
+    padding: 0.2rem;
+}
+.peoImgBox:hover >div{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow:3px 3px 5px 3px #e2e2e2;
+}
+.peoImgBox:hover .peoTextIndex{
+    border-right: none;
+    width: 99.7%;
+}
+.peoTextIndex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.2rem;
+    border: 0.01rem solid #eee;
+    margin-bottom: 0.2rem;
+}
+.videoIndex{
+    background: url("../image/index-content08-02.png")no-repeat center;
+    width: 0.37rem;
+    height: 0.36rem;
+    margin-top: 0.08rem;
+    margin-left: 0.02rem;
+    cursor: pointer;
+    background-size: cover;
+}
+.videoIndex:hover{
+    background: url("../image/index-content08-01.png")no-repeat center;
+}
+.buttonmoreIndex{
+    width: 1.3rem;
+    height: 0.38rem;
+    border: .01rem solid #388bfb;
+    color: #388bfb;
+    line-height: 0.38rem;
+    margin:0 auto 0.2rem;
+    cursor: pointer;
+}
+.buttonmoreIndex:hover{
+    background:#388bfb;
+    color: white;
+    transition: 1s;
+}
+.peoTextIndex > div > p{
+    color: #404040;
+    font-size: 0.16rem;
+}
+.peoTextIndex > div > span{
+    color: #d6d6d6;
+}
+
+/*数据*/
+.numIndexBg{
+    background: url("../image/index-content07.jpg");
+    width: 100%;
+    padding: 0.01rem 0 ;
+}
+.numIndexBox{
+    color: white;
+}
+.numIndexBoxBT{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.numIndex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.numIndex li{
+    padding: 0.315rem 0.2rem;
+    text-align: center;
+}
+.numIndex li p{
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+
+/*关于妈妈*/
+.mamaIndexImg4{
+    background: url("../image/index-content06-04.png")no-repeat center;
+    width: 0.89rem;
+    height: 0.89rem;
+    background-size:contain;
+}
+.mamaIndexImg3{
+    background: url("../image/index-content06-03.png")no-repeat center;
+    width: 0.89rem;
+    height: 0.89rem;
+    background-size:contain;
+}
+.mamaIndexImg2{
+    background: url("../image/index-content06-02.png")no-repeat center;
+    width: 0.89rem;
+    height: 0.89rem;
+    background-size:contain;
+}
+.mamaIndexImg1{
+    background: url("../image/index-content06-01.png")no-repeat center;
+    width: 0.89rem;
+    height: 0.89rem;
+    background-size:contain;
+}
+
+.mamaIndexImgtext{
+    padding:0.2rem;
+}
+.mamaIndexImgtext h4{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+.mamaIndexImgtext div{
+    margin: auto;
+}
+.mamaIndexImgtext p{
+    text-align: center;
+}
+
+/*媒体报道*/
+.reportIndex{
+    background: #f9f9fa;
+}
+.reportTextIndex{
+    width: 100%;
+    padding: 0.2rem;
+    border: 0.01rem solid #eee;
+    margin-bottom: 0.2rem;
+}
+.reportTextIndex p{
+    color: #393939;
+    font-size: 0.18rem;
+}
+.reportTextIndex span{
+    color: #989898;
+}
+
+/*加盟条幅*/
+.scrollIndex{
+    background:url("../image/index-content05.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0.6rem 0;
+}
+.scrollTextIndex{
+    text-align: center;
+}
+.scrollTextIndex span{
+    font-size: 0.24rem;
+    color: white;
+    margin-right: 0.4rem;
+}
+.scrollIndexBtn{
+    display: inline-block;
+    width: 1.3rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: white;
+    color: #4189f0;
+    border: 0.01rem solid white;
+}
+.scrollIndexBtn:hover{
+    background: #4189f0;
+    color: white;
+    border: 0.01rem solid #4189f0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/********************************门店加盟CSS***********************************/
+.shopJoinBg{
+    background: #f8f8f8;
+}
+.shopJoinImg{
+    padding: 1rem 0;
+}
+.shopJoinImg > div{
+    margin-bottom: 0.1rem;
+}
+.headline{
+    width: 11rem;
+    text-align: center;
+    margin: 0.4rem auto;
+}
+.shopJoinBox{
+    display: flex;
+    justify-content: space-between;
+    width: 11rem
+}
+.shopJoinJt{
+    height: 0.2rem;
+    margin-top: 5%;
+}
+
+/********************************供应商入驻CSS***********************************/
+.supplierEntryContent{
+    padding: 0.2rem;
+}
+.supplierEntryBox{
+    display: flex;
+    justify-content: space-between;
+    padding:  0 0 0.5rem 0 ;
+}
+.supplierEntryBox .supplierEntryJt{
+    height: 0.14rem;
+    margin-top: 5%;
+}
+.supplierEntryTextP{
+    margin-left: 0.8rem;
+}
+.supplierEntryText{
+    padding: 1.5rem 0 ;
+}
+
+/********************************mutuki代理CSS***********************************/
+.mutukuText{
+    margin-bottom: 0.3rem;text-align: center;line-height: 0.3rem
+}
+.mutukiLbdd{
+    display: flex;
+    position: absolute;
+    top:3%;
+    z-index: 888;
+}
+.mutukiLbdd .active{
+    color: white;
+    background: #388bfc;
+    transition: 0.5s;
+}
+.mutukiLbdd dd{
+    cursor: pointer;
+    margin-left: 0.2rem;
+    padding: 0.1rem 0.3rem;
+    border: 0.01rem solid #388bfc;
+    color: #388bfc;
+}
+
+/********************************加入月嫂CSS***********************************/
+.maternityText{
+    padding: 0.1rem;
+    line-height: 0.27rem;
+}
+.maternityImgBox{
+    display: flex;
+    justify-content: space-between;
+    padding:0 0.2rem 0.8rem;
+}
+.maternityBto{
+    padding: 0.2rem;
+}
+.maternityBto img{
+    width: 100%;
+}
+.maternityBto > div{
+    padding: 0.21rem;
+    width: 100%;
+    background: white;
+}
+
+/********************************媒体报道列表CSS***********************************/
+.mediaListbru{
+    margin-top: 0.3rem;
+    display: flex;
+}
+.mediaText{
+    padding:0.2rem;
+}
+.mediaText>div{
+    line-height: 0.2rem;
+    padding: 0.4rem 0.2rem  ;
+    border: 1px solid #ccc;
+}
+.mediaText h4{
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+.mediaTextBox{
+    padding: 0.2rem 0;
+}
+.mediaText:hover > div{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow:3px 3px 5px 3px #e2e2e2;
+}
+
+
+
+/********************************媒体报道详情表CSS***********************************/
+.detailsText{
+    line-height: 0.3rem;
+    padding: 0.3rem 0.5rem 0.5rem;
+}
+.detailsTime{
+    color: #989898;
+    padding: 0.2rem 0;
+    border-bottom: 0.01rem dashed #989898;
+    margin-bottom: 0.2rem;
+}
+
+
+
+
+/*媒体查询768px*/
+@media (max-width:768px) {
+    /********************************首页CSS***********************************/
+    .bander01{
+        background: url("../image/phone01.jpg")no-repeat center;
+        width: 100%;
+        height: 6.7rem;
+        background-size: cover;
+    }
+    .bander02{
+        background: url("../image/phone02.jpg")no-repeat center;
+        width: 100%;
+        height:6.7rem;
+        background-size: cover;
+    }
+    .bander03{
+        background: url("../image/phone03.jpg")no-repeat center;
+        width: 100%;
+        height: 6.7rem;
+        background-size: cover;
+    }
+    /*店铺轮播*/
+    .appIndexbox{
+        padding: 0.2rem 0.5rem;
+    }
+    .imgIndex img{
+        width: 100%;
+    }
+    .fistIndeximg{
+        margin: 0;
+    }
+    .rowIndex{
+        padding: 0;
+        margin-bottom: 0.2rem;
+    }
+
+    /*伙伴*/
+    .buttonIndex{
+        width: 2rem;
+        height: 0.7rem;
+        line-height: 0.7rem;
+    }
+    .headline{
+        width: 100%;
+        text-align: center;
+    }
+    .imgpeoIndex .peoImgBox img{
+        width:100%
+    }
+    .leftIndex{
+        padding:0
+    }
+    .cententIndex{
+        padding:0
+    }
+    .rightIndex{
+        padding:0
+    }
+    .videoIndex{
+        width:0.74rem;
+        height: 0.72rem;
+    }
+    .peoImgBox:hover .peoTextIndex{
+        width: 100%;
+    }
+    .peoTextIndex{
+        width: 100%;
+    }
+    .buttonmoreIndex{
+        width: 2.6rem;
+        height: 0.76rem;
+        line-height: 0.76rem;
+        margin:0 auto 0.4rem;
+    }
+    .peoTextIndex > div > p{
+        color: #404040;
+        font-size: 0.32rem;
+    }
+
+    /*数据*/
+
+    /*关于妈妈*/
+    .mamatextIndex{
+        padding: 0 0.2rem;
+    }
+
+    /*媒体报道*/
+    .reportTextIndex p{
+        font-size: 0.36rem;
+    }
+
+    /*加盟条幅*/
+    .scrollTextIndex span{
+        font-size: 0.3rem;
+        margin-right: 0.2rem;
+    }
+    .scrollIndexBtn{
+        width: 2rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
+    }
+
+    /********************************门店加盟CSS***********************************/
+    .shopJoinImg > div{
+        padding: 0.1rem 0.1rem 0.1rem  0.2rem;
+    }
+    .shopJoinBox{
+        width: 100%;
+    }
+    .shopJoinBox img{
+        width: 15%;
+        height: 50%;
+    }
+
+    /********************************供应商入驻CSS***********************************/
+    .supplierEntryBox img{
+        width: 10%;
+        height: 50%;
+    }
+    .supplierEntryBox img:nth-child(5){
+        width: 12.5%;
+    }
+    .supplierEntryBox .supplierEntryJt{
+        margin-top: 2%;
+    }
+    .supplierEntryContent img{
+        width: 100%;
+    }
+    .supplierEntryTextP{
+        margin-left: 0
+    }
+    .supplierEntryText{
+        padding: 0 ;
+    }
+
+    /********************************mutuki代理CSS***********************************/
+    .mutukiimg{
+        width: 100%;
+    }
+    .mutukuText{
+        line-height: 0.6rem;
+        padding: 0.2rem;
+    }
+    .mutukiLbdd{
+        top:-17%;
+        left: 10%;
+    }
+
+    /********************************加入月嫂CSS***********************************/
+    .maternityText{
+        line-height: 0.5rem;
+    }
+    .maternityImgBox img{
+        width:19%;
+        height: 19%;
+    }
+
+    /********************************媒体报道列表CSS***********************************/
+
+    .mediaListbru{
+        margin: 0.3rem;
+    }
+    .mediaTextBox{
+        padding: 0.2rem;
+    }
+    .mediaText>div{
+        line-height: 0.4rem;
+    }
+    .mediaRight{
+        margin-left: 70%;
+    }
+
+
+
+    /********************************媒体报道详情表CSS***********************************/
+
+}
+
+

@@ -1,0 +1,64 @@
+.headerBg{
+    width: 100%;
+    box-shadow:0rem 0.01rem 0.05rem #e2e2e2;
+}
+.headerBg .navbar-default{
+    background-color: white;
+    border:none;
+    width: 11rem;
+    margin: auto;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+    background: none;
+}
+.headerBg .nav li a{
+    line-height: 0.4rem;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-nav > li > .dropdown-menu{
+    border: 0;
+    padding: 0;
+    top:0.71rem;
+    border-top: 1px solid rgba(0, 0, 0, .05);
+}
+.shopLogin span{
+    width: 0.9rem;
+    font-size: 0.13rem;
+    padding:0.07rem 0.15rem;
+    border: 0.01rem solid #388bfb;
+    background: #388bfb;
+    border-radius: 0.05rem;
+    color: white;
+}
+.merchanLogin span{
+    width: 0.9rem;
+    font-size: 0.13rem;
+    padding: 0.07rem 0.15rem;
+    border: 0.01rem solid #388bfb;
+    border-radius: 0.05rem;
+    color: #388bfb;
+}
+#headerAcitve .activeR{
+    color: red; !important;
+}
+@media (max-width:768px) {
+    .headerBg .navbar-default{
+        width: auto;
+    }
+    .container-fluid{
+        display: block;
+    }
+    .headerBg .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7;
+        position: absolute;
+        background: white;
+        width: 100%;
+        z-index: 800;
+        border-bottom: 1px solid #eee
+    }
+
+}

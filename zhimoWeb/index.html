@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>知墨控股官方网站</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+
+    <script>(function (doc, win) { var de = doc.documentElement, re = 'orientationchange' in window ? 'orientationchange' : 'resize', recalc = function () {var cw = de.clientWidth; if (!cw) return; de.style.fontSize = cw>=750 ? '100px' : 100 * (cw / 750) + 'px'; };recalc(); if (!doc.addEventListener) return; win.addEventListener(re, recalc, false); doc.addEventListener('DOMContentLoaded', recalc, false); })(document, window);</script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script>
+        $(function(){
+            $('#dowebok').fullpage({
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+                menu: '#menu',
+                resize:false,
+                scrollingSpeed: 400,//设置滚动速度，单位毫秒，默认700
+                css3:true,
+                afterLoad: function(anchorLink, index){
+                    if (index == 1){
+                        $('.bander-left').stop().animate({'left':'30%','opacity':'1'},1000);
+                        $('.bander-right').stop().animate({'right':'28%','opacity':'1'},1000);
+                    } else {
+                        $('.bander-left').stop().css({'left':'-20%','opacity':'0'});
+                        $('.bander-right').stop().css({'right':'-15%','opacity':'0'})
+                    }
+                }
+
+            })
+        });
+    </script>
+</head>
+<body >
+    <!--logo-->
+    <div class="zhimo_logo">
+        <img src="./image/zhimo-logo.png" alt="">
+    </div>
+
+    <div class="icon"></div>
+    <ul id="menu" class="topPa">
+        <li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+        <li data-menuanchor="page2"><a href="#page2">知墨集团</a></li>
+        <li data-menuanchor="page3"><a href="#page3">组织架构</a></li>
+        <li data-menuanchor="page4"><a href="#page4">合作伙伴</a></li>
+        <li data-menuanchor="page5"><a href="#page5">荣誉资质</a></li>
+        <li data-menuanchor="page6"><a href="#page6">联系我们</a></li>
+    </ul>
+
+    <div id="dowebok">
+        <!--首页-->
+        <div class="section">
+            <div class="indexOne">
+                <div class="bander-left"></div>
+                <div class="bander-right"></div>
+                <div id="nextBtn"></div>
+            </div>
+        </div>
+        <!--知墨-->
+        <div class="section">
+            <div class="indexTwo">
+                <div class="indexTwoBox">
+                    <p>知墨简介</p>
+                    <p>知墨科技全称为浙江知墨信息技术有限公司，成立于2010年，致力于为互联网创新项目提供技术性孵化服务，以及为金融类、金融机构等高端客户提供全面精准的定制化互联网金融服务。</p>
+                    <p>知墨科技拥有成熟的互联网金融研发和运营团队以及大数据分析处理能力，为客户提供从前期需求设计研发到后期安全维护一体化服务提供解决方案。</p>
+                </div>
+                <p>知墨科技大数据应用核心产品</p>
+                <ul class="indexTwoImg">
+                    <li>
+                        <img src="./image/微云存储资源%205.png" alt="">
+                        <p>微云存储平台</p>
+                    </li>
+                    <li>
+                        <img src="./image/数据分析资源%206.png" alt="">
+                        <p>数据分析平台</p>
+                    </li>
+                    <li>
+                        <img src="./image/数据检索资源%207.png" alt="">
+                        <p>数据检索平台</p>
+                    </li>
+                    <li>
+                        <img src="./image/业务监控资源%204.png" alt="">
+                        <p>业务监控解决方案</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--组织-->
+        <div class="section">
+            <div class="indexThree">
+                <p class="indexP">组织架构</p>
+                <div style="margin: auto;width: 50%;text-align: center" class="indexThreeFimg">
+                    <img src="./image/zhimo-logo2.png" alt="">
+                </div>
+                <div class="indexThreeBox">
+                    <img src="./image/index-03-1.png" alt="" style="width: 100%">
+                </div>
+                <ul class="indexThreeImg">
+                    <li>
+                        <img src="./image/index-03-01.png" alt="">
+                        <p class="indexThreeName">知坤网络</p>
+                        <span class="indexThreeOld">智慧园区行业先行者</span>
+                        <p class="indexThreeNew">杭州知坤网络科技有限公司成立于2016年6月，是智慧园区实践标杆的设计者和践行者。从咨询规划、智慧基础设施、智慧品种和招商到智慧运营服务产业链IT解决方案与服务供应商。</p>
+                    </li>
+                    <li>
+                        <img src="./image/index-03-02.png" alt="">
+                        <p class="indexThreeName">妈妈去哪儿</p>
+                        <span class="indexThreeOld">互联网孕婴童电商运服平台</span>
+                        <p class="indexThreeNew">妈妈去哪儿网络科技有限公司，成立于2014年8月。成立四年累计完成4次股权融资。妈妈去哪儿是一家根植于母婴产业的“产业互联网公司”，致力于“用互联网技术改造传统的线下母婴零售业态，为其赋能互联网工具，为其打通上下游链接，使其综合盈利能力得到全面提升”。</p>
+                    </li>
+                    <li>
+                        <img src="./image/index-03-03.png" alt="">
+                        <p class="indexThreeName">安肯文化</p>
+                        <span class="indexThreeOld">高端宠物服务连锁机构</span>
+                        <p class="indexThreeNew">浙江安肯文化艺术发展有限公司成立于2014年10月，注册资金1000万。以高端的宠物酒店式寄养为特色，集合美容、洗澡、产品销售等一站式服务的宠物连锁机构。栅栏式的寄养空间，Tiffany蓝的温馨主色调，24小时的安全监控，提供最舒适、最安全、最有爱的宠物生活场所。</p>
+                    </li>
+                    <li>
+                        <img src="./image/index-03-04.png" alt="">
+                        <p class="indexThreeName">光尘投资</p>
+                        <span class="indexThreeOld">领先的投资管理机构</span>
+                        <p class="indexThreeNew">杭州光尘投资有限公司成立于2017年2月，经营范围包括实业投资;服务:私募股权投资、私募股权投资管理、创业投资、投资管理、投资咨询(除证券、期货)等。</p>
+                    </li>
+                </ul>
+                <div class="indexAlertT">
+                    <div class="indexPositionT">
+                    </div>
+                    <div class="offIndexAlertT"></div>
+                </div>
+            </div>
+        </div>
+        <!--合作-->
+        <div class="section">
+            <div class="indexFour">
+                <p class="indexP" style="color: white">合作伙伴</p>
+                <div class="pcSmall">
+                    <div class="pcSmallBox">
+                        <img src="./image/切图.png" alt="" style="margin-top: 0.2rem">
+                    </div>
+
+                    <div class="swiper-container-son" >
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="smalllogo01"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo02"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo03"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo04"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo05"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo06"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo07"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo08"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo09"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo10"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo11"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo12"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo13"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo14"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo15"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo16"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo17"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo18"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="smalllogo19"></div>
+                            </div>
+                            <div class="swiper-slide" style="background: transparent;width: 30%">
+                                <div class="smalllogo20" ></div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-white"></div>
+                    </div>
+                </div>
+                <div class="appSmall">
+                    <div class="swiper-container-smallson" style="padding: 0 0.15rem">
+                        <div class="swiper-wrapper" style="margin-top: 20%">
+                            <div class="swiper-slide" style="width: 100%">
+                                <img src="./image/合作伙伴1.png" alt="">
+                            </div>
+                            <div class="swiper-slide" style="width: 100%">
+                                <img src="./image/合作伙伴2.png" alt="">
+                            </div>
+                            <div class="swiper-slide" style="width: 100%">
+                                <img src="./image/合作伙伴3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--荣誉-->
+        <div class="section">
+            <div class="indexFive">
+                <p class="indexP">荣誉资质</p>
+                <ul class="indexFiveBox">
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/成员证书.jpg" alt="">
+                        </div>
+                        <p>上海后世博研究中心会员单位</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/浙江股权.jpg" alt="">
+                        </div>
+                        <p>浙江股权交易中心创新板挂牌企业</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/组-1.jpg" alt="">
+                        </div>
+                        <p>2017百度资信认证</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/创享.jpg" alt="">
+                        </div>
+                        <p>十佳女性创新创业项目</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/高成长企业.jpg" alt="">
+                        </div>
+                        <p>年度高成长企业</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/百强企业.jpg" alt="">
+                        </div>
+                        <p>浙江省成长性科技型百强企业</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/守信单位.jpg" alt="">
+                        </div>
+                        <p>浙江省重服务守诚信双优单位</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/消费者.jpg" alt="">
+                        </div>
+                        <p>浙江省消费者最满意品牌单位</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/诚信网站.jpg" alt="">
+                        </div>
+                        <p>中国互联网电子商务诚信网站</p>
+                    </li>
+                    <li>
+                        <div class="indexFiveImg">
+                            <img src="./image/独角兽.jpg" alt="">
+                        </div>
+                        <p>2018浙商Prc独角兽</p>
+                    </li>
+                </ul>
+                <div class="indexAlert">
+                    <div class="indexPosition">
+
+                    </div>
+                    <div class="offIndexAlert"></div>
+                </div>
+            </div>
+        </div>
+        <!--我们-->
+        <div class="section">
+            <div class="indexSix">
+                <p class="indexP" >联系我们</p>
+                <div class="phoneMe">
+                    <p>滨江总部</p>
+                    <p>地址：杭州市滨江区和瑞科技园T2-13F</p>
+                    <p>城西分部</p>
+                    <p>地址：杭州互联网创新创业园D幢701</p>
+                    <p>传真：0571-89915185</p>
+                    <p>内管中心：0571-86715227</p>
+                    <p>营销中心：0571-89915187 &nbsp; 0571-87036227</p>
+                    <p>Email：zhimore@zhimore.com</p>
+                </div>
+                <div class="footerText">
+                    <a href="http://www.miitbeian.gov.cn/" style="color: white">
+                        <p>Copyright © 2013-2016 浙江知墨信息技术有限公司 All rights reserved</p>
+                        <p>浙ICP备12002357号</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/index.js"></script>
+<script>
+
+    $(function () {
+        var swiper = new Swiper('.swiper-container-son', {
+            slidesPerView: 6,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            }
+        });
+        var swiper = new Swiper('.swiper-container-smallson', {
+            spaceBetween: 30,
+            loop: true,
+            autoplay:{
+                delay: 2000
+            },
+            effect: 'flip',
+            grabCursor: true
+        });
+    })
+
+</script>
+

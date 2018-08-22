@@ -1,0 +1,202 @@
+/********
+ * 关于我们
+ ********/
+body{color: #333;font-family: "microsoft yahei";}
+/*p{margin: 0 0 .1rem 0!important;}*/
+/*#header{position: fixed;width: 100%;background: white;}*/
+.banner{width: 100%;position: relative;}
+.banner>img{width: 100%;}
+.aboutUS-h2{font-size: .28rem;text-align: center;margin-top: 1.25rem;margin-bottom: .40rem;}
+.aboutUS_nav{width: 11rem;height: 1.36rem;border-radius: 6px;background: white;display: flex;box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);position: absolute;left: 50%;margin-left: -5.5rem;bottom: -.68rem;overflow: hidden;align-items: center;margin-bottom: 0;}
+.aboutUS_nav li{width: calc(100% / 6);text-align: center;background: white;align-items: center;display: flex;justify-content: center;height: .6rem;border-left: 1px solid #C6C6C6;}
+.aboutUS_nav li:first-child{border-left: none;}
+.aboutUS_nav li a:hover{text-decoration: none;}
+.aboutUS_nav li p{font-size: .18rem;color: #333;}
+.aboutUS_nav li p:hover, .aboutUS_nav li.active p{color: #da464f;}
+.aboutUS_nav li img{height: .25rem;margin-bottom: .15rem;}
+/*1*/
+.aboutUS_con1{font-size: .14rem;line-height: 1.5em;}
+.aboutUS_con1 img{width: 100%;}
+.aboutUS_con1 p{font-size: .14rem;text-indent: 2em;margin-bottom: .25rem;}
+.aboutUS_con1 h3{font-size: .14rem;font-weight: bold;}
+.aboutUS_con1 .content{margin: .48rem 0 .3rem;}
+/*3*/
+.aboutUS_con3 .content{margin-bottom: .25rem;}
+.aboutUS_con3 .cards_wrap{overflow: hidden;}
+.aboutUS_con3 .cards_con{border-radius: 4px;height: 2.5rem;margin-bottom: .3rem;overflow: hidden;}
+.aboutUS_con3 .cards_con:nth-child(2n+1){padding-right: .3rem;}
+.aboutUS_con3 .cards_con .bg{background: #F3F4F3;height: 2.5rem;overflow: hidden;}
+.aboutUS_con3 .cards_con .left{float: left;height: 100%;width: 30%;}
+.aboutUS_con3 .cards_con .left img{width: 100%;height: 100%;}
+.aboutUS_con3 .cards_con .right{margin-left: 33%;padding-top: .1rem;}
+.aboutUS_con3 .cards_con .right h3{font-size: .18rem;color: #424242;margin: .25rem 0 .15rem 0;}
+.aboutUS_con3 .cards_con .right p, .aboutUS_con3 .cards_con .right p a{font-size: .14rem;color: #949494;width: 85%;line-height: 2em;}
+.aboutUS_con3 .carousel-control.right{right: -10%;}
+.aboutUS_con3 .carousel-control.left{left: -10%;}
+/*4*/
+#teamDetail{background: #F5F5F5;}
+.aboutUS_con3_detail{padding-top: 1rem;}
+.aboutUS_con3_detail .left{display: flex;}
+.aboutUS_con3_detail .wordDes{margin-left: .77rem;}
+.aboutUS_con3_detail .wordDes .name{font-size: .16rem;color: #424242;}
+.aboutUS_con3_detail .wordDes .intro{font-size: .14rem;color: #999;}
+.aboutUS_con3_detail .wordDes .description{text-indent: 2em;line-height: 1.8em;text-align: justify;}
+.aboutUS_con3_detail .right img{width: 100%;}
+.aboutUS_con3_detail .item{overflow: hidden;}
+.aboutUS_con3_detail .col-md-7{height: 6.87rem;display: flex;align-items: center;}
+.aboutUS_con3_detail .carousel-control.right, .aboutUS_con3_detail .carousel-control.left{width: 5%;height: 1rem;background: #EAEAEA;line-height: 1rem;top: 50%;margin-top: -.5rem;}
+.aboutUS_con3_detail .carousel-control .left_icon{background: url(../image/icon_left.png) center;width: 100%;background-size: contain;}
+.aboutUS_con3_detail .carousel-control .right_icon{background: url(../image/icon_right.png) center;width: 100%;display: block;height: 100%;background-size: contain;}
+/*5*/
+.aboutUS_partner{border-left: 1px solid #E5E5E5;border-top: 1px solid #E5E5E5;overflow: hidden;margin-bottom: .5rem;}
+.aboutUS_partner div{height: 1.24rem;text-align: center;line-height: 1.24rem;border-right: 1px solid #E5E5E5;border-bottom: 1px solid #E5E5E5;}
+.aboutUS_partner div img{max-width: 60%;max-height: 70%;}
+/*6*/
+.aboutUS_feature{margin-bottom: .45rem;overflow: hidden;}
+.aboutUS_feature .right{padding-left: .2rem;}
+.aboutUS_feature .right p{text-indent: 2em;line-height: 1.8em;margin-bottom: .12rem;}
+/*7*/
+.aboutUS_culture{text-align: center;}
+.aboutUS_culture .title{font-size: .14rem;margin-bottom: .5rem;}
+.aboutUS_culture .title h3{font-weight: bold;font-size: .14rem;}
+.aboutUS_culture .content{margin-bottom: .2rem;overflow: hidden;}
+.aboutUS_culture .content div{margin-bottom: .4rem;height: 3.5rem;}
+.aboutUS_culture .content div:nth-child(2n+1){padding-right: .2rem;}
+.aboutUS_culture .content div:nth-child(2n){padding-left: .2rem;}
+.aboutUS_culture .content div img{width: 100%;height: 100%;}
+/*8 商学院*/
+.college_title{text-align: center;padding-bottom: .1rem;}
+.college_h2{margin: .65rem 0 .3rem;text-align: center;font-size: .28rem;}
+.college_title p{margin-bottom: .25rem;line-height: 1.8em;}
+.college_content{padding-bottom: .6rem;}
+#contentIndex .carousel-indicators.btns{position: relative;left: 0;margin-bottom: .3rem;}
+.college_content .btns{width: 5.6rem;margin: .5rem auto .5rem;display: flex;justify-content: space-between;}
+.college_content .btns li{width: 1.3rem;line-height: .4rem;text-align: center;box-sizing: border-box;border: 1px solid #398BFC;color: #398bfc;cursor: pointer;border-radius: 3px;height: auto;background: white;text-indent: 0}
+.college_content .btns li.active{background: #398BFC;color: white;}
+.college_content .wrapper .item-info{margin-bottom: .2rem;height: 2.67rem;position: relative;}
+.college_content .wrapper .item-info .shadow{height: 2.35rem;position: relative;}
+.college_content .wrapper .item-info .shadow p{line-height: .4rem;text-align: center;font-size: 16px;background: white;}
+.college_content .wrapper .item-info:hover .shadow{box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);}
+.college_content .wrapper .item-info img{width: 100%;height: 100%;}
+.college_content .wrapper .item-info .icon{position: absolute;height: .35rem;left: 0;bottom: 0;width: 100%;line-height: .35rem;font-size: .18rem;text-align: center;background: rgba(0, 0, 0, 0.8);color: rgba(255, 255, 255, 0.9);cursor: pointer;display: none;}
+.college_content .wrapper .item-info:hover .icon{display: block;}
+.college_content .wrapper .item-info .icon span:hover{background: rgba(57, 139, 252, 0.8);}
+.college_content .wrapper .item-info.col-md-4{width: 3.53rem;margin-right: .2rem;}
+.college_content .wrapper .item-info:nth-child(3n){margin-right: 0;}
+.college_content .more{line-height: .24rem;text-align: center;color: #398BFC;margin-top: .3rem;cursor: pointer;}
+.college_content .more span{margin-right: .1rem;}
+.college_reply{padding: 0 1rem;}
+.college_reply .name{line-height: .75rem;height: .75rem;}
+.college_reply .name .pic{width: .75rem;height: .75rem;overflow: hidden;border-radius: 50%;float: left;}
+.college_reply .name .pic img{width: 100%;height: 100%;}
+.college_reply .name .word{float: left;margin-left: .16rem;font-size: .14rem;}
+.college_reply .name .word .des{margin-right: .15rem;}
+.college_reply .name .word .intro{font-weight: bold;}
+.college_reply .message{margin-top: .2rem;line-height: 1.8em;text-align: justify;position: relative;}
+.college_pad{padding: 0 .9rem 1rem 1.22rem;position: relative;}
+.college_pad .icon1{position: absolute;top: 0;left: 0;}
+.college_pad .icon2{position: absolute;bottom: .58rem;right: 0;}
+.banner_bottom{background: url(../image/college_banner_bottom.jpg);background-position: center;height: 2.3rem;background-size: cover;}
+.college_reply .carousel-control.right, .college_reply .carousel-control.left{width: .4rem;height: .8rem;background: #EAEAEA;line-height: .8rem;top: 50%;margin-top: -.4rem;}
+.college_reply .carousel-control.right{right: -.7rem;}
+.college_reply .carousel-control.left{left: -.7rem;}
+.college_reply .carousel-control .left_icon{background: url(../image/icon_left.png) center;width: 100%;background-size: 100% 100%;background-repeat: no-repeat;display: block;height: 100%;}
+.college_reply .carousel-control .right_icon{background: url(../image/icon_right.png) center;width: 100%;display: block;height: 100%;background-size: 100% 100%;background-repeat: no-repeat;}
+
+
+/*详情轮播*/
+/*#carousel-example-generic>.carousel-inner>.item{z-index: 101;}*/
+/*弹层图片放大*/
+.fixed-cover{position: fixed;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.6);z-index: 1;display: flex;justify-content: center;align-items: center;display: none;}
+.fixed-cover .glyphicon-remove-circle{font-size: 40px;color: white;position: absolute;right: 10%;top: 10%;cursor: pointer;}
+.fixed-cover img{max-width: 80%;}
+.college_content .carousel-inside {position: fixed;left: 0;top: 50%;height: 5rem;margin-top: -2.5rem;z-index: 2;display: none;}
+.college_content .carousel-inside .item{text-align: center;line-height: 5rem;height: 5rem;}
+.college_content .carousel-inside .item img{max-width: 80%;height: auto;display: inline-block;}
+.carousel-inside .carousel-control.right, .carousel-inside .carousel-control.left{width: 10%;}
+
+
+/*******
+ * 加入我们
+ ********/
+.join_nav .nav_icon{background: url(../image/join_nav.png);display: inline-block;background-size: .3rem;margin-bottom: .05rem;}
+.join_nav .nav_icon1{width: .18rem;height: .25rem;background-position: 0 0;}
+.join_nav .nav_icon2{width: .28rem;height: .25rem;background-position: 0 -1.09rem;}
+.join_nav .nav_icon3{width: .25rem;height: .25rem;background-position: 0 -.82rem;}
+.join_nav .nav_icon4{width: .27rem;height: .25rem;background-position: 0 -.55rem;}
+.join_nav .nav_icon5{width: .23rem;height: .25rem;background-position: 0 -.27rem;}
+.join_nav .nav_icon6{width: .24rem;height: .25rem;background-position: 0 -1.37rem;}
+.join_content{padding-top: 1.1rem;padding-bottom: .2rem;}
+.join_content .panel{border: 1px solid #E5E5E5;padding: .2rem .7rem 0 .4rem;}
+.join_content .panel-default > .panel-heading{background: white;border: none;position: relative;}
+.join_content .panel-heading h2 a{color: #333;text-decoration: none;}
+.join_content .panel-heading li{line-height: 1.8em;}
+.join_content .panel-heading h3{font-size: 16px;margin: .4rem 0 .1rem 0;font-weight: bold;}
+.join_content .panel .enter{width: .63rem;display: block;height: .63rem;background: url(../image/join_btn_02.jpg) no-repeat;position: absolute;top: 50%;margin-top: -.32rem;right: .7rem;background-size: contain;}
+.join_content .panel .enter:hover{background: url(../image/join_btn_01.jpg);background-size: contain;}
+.join_content .panel .panel-body {border: none;}
+.join_content .panel .panel-body .title{font-size: 16px;font-weight: bold;margin: .25rem 0;}
+.join_content .panel .panel-body dl dt{font-weight: normal;}
+.join_content .panel .panel-body dl dt,.join_content .panel .panel-body dl dd{line-height: 1.8em;}
+.join_content .panel .panel-body .submit{padding: .2rem 0;overflow: hidden;}
+.join_content .panel .panel-body .submit a{display: inline-block;width: 1.3rem;height: .4rem;border: 1px solid #BFBFBF;line-height: .38rem;text-align: center;font-size: .2rem;text-decoration: none;color: #333;margin-right: .1rem;border-radius: 5px;}
+.join_content .panel .panel-body .submit a:nth-child(1){background: #008BFF;border-color: #008BFF;color: white;}
+.join_content .panel-group .panel + .panel{margin-top: .3rem;}
+
+@media (max-width: 768px) {
+	.aboutUS_nav{width: 100%;margin-left: 0;left: 0;position: relative;bottom: 0;}
+	.aboutUS_nav li p{color: #333;}
+	.aboutUS-h2{margin-top: .25rem;}
+    .aboutUS_con1 .content {padding: 0 .2rem;}
+    .aboutUS_con3 .cards_con{padding: 0 .3rem;}
+    .aboutUS_con3_detail{padding-top: .5rem;}
+    .aboutUS_con3_detail .col-xs-8{height: auto;}
+    .aboutUS_con3_detail .col-xs-8 .left{padding-left: .2rem;}
+    .aboutUS_con3_detail .col-xs-4{height: 100%;}
+    .aboutUS_feature{padding: 0 .2rem;}
+    .aboutUS_feature .left img{width: 100%;margin-bottom: .2rem;}
+    .aboutUS_culture .content div{padding: 0 .2rem;height: 4rem;margin-bottom: .2rem;}
+    .college_content .wrapper .item-info .icon{display: block;}
+    .college_content .wrapper{padding: 0 .2rem;}
+    .college_content .wrapper .item-info.col-xs-6{width: 3.45rem;margin-right: .2rem;}
+    .college_content .wrapper .col-xs-6:nth-child(2n){margin-right: 0;}
+    .college_content .wrapper .item-info .shadow p{line-height: .4rem;text-align: center;font-size: 14px;background: white;}
+    .join_content{padding: .2rem;}
+    .join_content .panel .enter.col-xs-1{display: none;}
+    .join_content .panel{padding: 0;}
+    .join_content .panel-heading h2{font-size: .38rem;font-weight: bold;}
+    .join_content .panel .panel-body .submit a{height: .5rem;line-height: .5rem;}
+    .college_reply{padding: 0.2rem .7rem;}
+    .college_pad{padding: 0;}
+    .icon1{display: none;}
+    .icon2{display: none;}
+    .aboutUS_con3 .carousel-control.right{right: 0;}
+	.aboutUS_con3 .carousel-control.left{left: 0;}
+}
+
+/*发展轨迹*/
+
+/* TimeLine */
+                                                                                                                /*时间轴线*/
+#timeline{width:11.2rem;height:4rem;overflow:hidden;margin: 0 0 0.6rem 0;position:relative;background:url('../image/licbg.png') left 340px repeat-x;}
+#dates{width:11rem;overflow:hidden;margin-top:0.2rem;font-size: 0.16rem}
+#dates li{float:left;width:0.94rem;height:0.9rem;text-align:center;}
+#dates a{color:#713611;width:0.94rem;height:0.9rem;line-height:1.3rem;display:block;}
+/*指针图片*/
+#dates .selected{font-size:0.18rem;font-weight:bold;background:url(../image/licbgt.png) no-repeat center top;}
+
+#issues{width:11rem;height:3rem;overflow:hidden;}
+#issues li{width:11rem;height:3rem;list-style:none;float:left;box-sizing: border-box;}
+#issues li img{text-align:center;display:block;margin:0 auto;}
+
+@media (max-width:768px) {
+    #timeline{width:100%;height:8rem}
+    #dates{width:100%;margin-top:0.4rem;font-size: 0.32rem}
+    #dates li{width:1.88rem;height:1.8rem;}
+    #dates a{width:1.88rem;height:1.8rem;line-height:2.6rem;}
+    /*指针图片*/
+    #dates .selected{font-size:0.36rem;}
+    #issues{width:100%;height: 6rem}
+    #issues li{height: 6rem;text-align: center;}
+    #issues li img{width:70%;margin: 0}
+}

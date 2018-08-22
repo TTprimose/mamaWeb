@@ -1,0 +1,252 @@
+
+.zhimo_logo{
+    position: fixed;
+    top:0.5%;
+    left: 21%;
+    z-index: 999
+}
+
+@media (max-width:1380px) {
+    .swiper-button-next{
+        right: 17%;
+        top:65%
+    }
+    .swiper-button-prev{
+        left: 17%;
+        top:65%
+    }
+}
+/*APP端样式*/
+@media (max-width:768px) {
+    .zhimo_logo img{
+        width: 100%;
+    }
+    .zhimo_logo{
+        position: fixed;
+        top:1.5%;
+        left: 3%;
+        width: 35%;
+    }
+
+    .icon{
+        background: url("../image/菜单.png")no-repeat center;
+        background-size: contain;
+        width: 0.5rem;
+        height: 0.5rem;
+        position: fixed;
+        right: 10.5%;
+        top:2%;
+        display: none;
+        z-index: 999;
+    }
+
+    .topPa{
+        display: block;
+        position: fixed;
+        width: 17%;
+        padding:0.2rem 0.2rem 0;
+        top:7.6%;
+        left: 75%;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+    }
+    .topPa li{
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+
+
+
+    /***************************************首页********************************************/
+
+    .indexOne{
+        background: url("../image/app-index-02.jpg")no-repeat center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    /***************************************知墨集团********************************************/
+
+    .indexTwoBox{
+        width: 80%;
+        margin: 25% auto 5%;
+    }
+    .indexTwoImg{
+        width: 65%;
+        margin:10% auto;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .indexTwoImg li{
+        width: 45%;
+        margin-bottom: 10%;
+    }
+    .indexTwoImg li img{
+        width: 100%;
+    }
+
+    /***************************************组织架构********************************************/
+    .indexP{
+        margin: 25% auto 5%;
+        font-size: 0.32rem;
+    }
+    .indexThreeBox{
+        margin: 10% auto 10%;
+        width: 70%;
+    }
+    .indexThreeFimg img{
+        width: 100%;
+    }
+    .indexThreeImg img{
+        width: 50%;
+    }
+    .indexThreeImg{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .indexThreeImg li img , .indexThreeImg li p , .indexThreeImg li span{
+        margin-bottom: 15%;
+    }
+    .indexThreeImg li:nth-child(2) img{
+        width: 73%;
+    }
+    .indexThreeImg li:nth-child(3) img{
+        width: 58%;
+    }
+    .indexThreeImg li:nth-child(4) img{
+        width: 58%;
+    }
+    .indexAlertT{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 500;
+        display: none;
+    }
+    .indexPositionT{
+        background: white;
+        width: 70%;
+        height: 60%;
+        margin:30% auto 0;
+        text-align: center;
+    }
+    .indexPositionT img{
+        margin-top: 10%;
+    }
+
+    .indexPositionT .indexThreeNew{
+        margin-top: 10%;
+        padding: 0 0.2rem;
+        line-height: 0.4rem;
+        text-indent: 0.4rem;
+    }
+    .indexThreeName{
+        margin-top: 10%;
+    }
+
+    .offIndexAlertT{
+        position: absolute;
+        top:10%;
+        left: 92%;
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        cursor: pointer;
+        text-align: center;
+        line-height: 0.25rem;
+        font-size: 0.2rem;
+        background: url("../image/关闭.png")no-repeat center;
+        background-size: cover;
+    }
+    .offIndexAlertT:hover{
+        background: deepskyblue;
+        transition: 0.5s;
+    }
+
+    /***************************************合作伙伴********************************************/
+    .indexFour{
+        background: url("../image/app-index-01.jpg")no-repeat center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .indexFour img{
+        width: 100%;
+    }
+
+    /***************************************荣誉资质********************************************/
+
+
+    .indexFiveBox{
+        width: 90%;
+    }
+    .indexFiveBox img{
+        width: 100%;
+    }
+    .indexFiveBox li{
+        margin-bottom: 25%
+    }
+    .indexFiveBox li > div{
+        padding: 0.17rem 0.1rem;
+        /*height: 2.1rem;*/
+        line-height: 2.1rem;
+    }
+    .indexFiveBox li p {
+        font-size: 0.12rem;
+        background: #f8f8f8;
+        padding: 0.07rem;
+        height: 0.21rem;
+        line-height: 0.21rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .indexAlert{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 500;
+        display: none;
+    }
+    .indexPosition{
+        /*background: white;*/
+        margin:70% auto 0;
+        text-align: center;
+    }
+    .indexPosition  img{
+        transform: scale(2.5);
+
+    }
+    .indexPosition p {
+        display: none;
+    }
+    .offIndexAlert{
+        top:20%;
+        left: 92%;
+    }
+
+
+
+    /***************************************联系我们********************************************/
+
+    .phoneMe{
+        margin-top: 15%;
+        margin-bottom: 50%;
+    }
+    .footerText{
+        width: 77%;
+        margin: auto;
+    }
+
+}
+

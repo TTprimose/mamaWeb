@@ -1,0 +1,463 @@
+/***************************************首页********************************************/
+.topPa{
+    position: fixed;
+    width:35%;
+    left: 45%;
+    top:2%;
+    justify-content: space-between;
+    z-index: 999;
+    color: white;
+    display: flex;
+    font-size: 0.14rem;
+}
+.topPa li a{
+    color: white;
+}
+.topPa li a:hover{
+    text-decoration: none;
+}
+.topPa li{
+    text-align: center;
+    padding: 0.03rem;
+    border-radius: 0.2rem;
+    width:1rem;
+    margin-right: 0.05rem;
+}
+.topPa li:hover{
+    background: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.topPa li:hover a{
+    color: #00a4e9;
+}
+.topPa .active{
+    background: white;
+}
+.topPa .active a{
+    color: #00a4e9;
+}
+
+
+
+.indexOne{
+    background: url("../image/首页.jpg")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+.bander-left{
+    position: absolute;
+    background: url("../image/大知而察.png")no-repeat center;
+    width: 28%;
+    height: 28%;
+    background-size: contain;
+    top:20%;
+    left: -20%;
+    opacity: 0;
+}
+.bander-right{
+    position: absolute;
+    background: url("../image/蕴北墨兵.png")no-repeat center;
+    width: 23%;
+    height: 23%;
+    background-size: contain;
+    top:36%;
+    right: -15%;
+    opacity: 0;
+}
+#nextBtn{
+    background: url("../image/xiala.png") no-repeat center;
+    width: 0.33rem;
+    height: 0.4rem;
+    position: fixed;
+    bottom: 0.5rem;
+    margin-left: -11.5px;
+    left: 50%;
+    z-index: 999;
+    animation: bounce 1s infinite;
+    cursor: pointer;
+    background-size: contain;
+}
+
+/***************************************知墨集团********************************************/
+.indexTwo{
+    background: url("../image/index-02.jpg")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 7%;
+}
+.indexTwoBox{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 5%;
+    font-size: 0.18rem;
+}
+.indexTwoBox>p{
+    line-height: 0.4rem;
+}
+.indexTwo>p{
+    margin: 5% auto;
+    color: white;
+    text-align: center;
+    width: 60%;
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+.indexTwoBox>p:first-child{
+    font-size: 0.3rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+.indexTwoImg{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+.indexTwoImg li{
+    width: 20%;
+}
+.indexTwoImg li img{
+    width: 100%;
+}
+.indexTwoImg li p{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 0.16rem;
+    padding: 0.1rem 0 ;
+}
+
+/***************************************组织架构********************************************/
+.indexThree{
+    background: url("../image/index-0-0.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 8%;
+}
+.indexP{
+    margin: 0 auto 3%;
+    font-size: 0.32rem;
+    width: 50%;
+    text-align: center;
+}
+.indexThreeBox{
+    margin: 2% auto 3%;
+    width: 50%;
+    text-align: center;
+}
+.indexThreeImg{
+    display: flex;
+    width: 57%;
+    justify-content: space-between;
+    margin: auto;
+}
+.indexThreeImg li {
+    width: 21%;
+    /*padding: 8% 0;*/
+    height: 4rem;
+    border: 0.01rem solid #ccc;
+    background: white;
+    box-shadow: 0 5px 5px #ccc;
+    cursor: pointer;
+    padding: 0 0.1rem;
+    text-align: center;
+}
+.indexThreeImg li img{
+    height: 0.8rem;
+    margin-top: 50%;
+}
+.indexThreeImg li img , .indexThreeImg li span{
+    margin-bottom: 10%;
+    font-size: 0.14rem;
+}
+.indexThreeImg li p{
+    margin-bottom: 10%;
+}
+.indexThreeName{
+    font-size: 0.18rem;
+}
+.indexThreeImg li span{
+    color: #999;
+}
+.indexThreeNew{
+    font-size: 0.12rem;
+    text-indent:0.24rem;
+    display: none;
+    color: #999;
+    line-height: 0.2rem;
+    text-align: left;
+}
+.indexThreeOld{
+    /*display: none;*/
+}
+
+.indexAlertT{
+    display: none;
+}
+
+/***************************************合作伙伴********************************************/
+
+.indexFour{
+    background: url("../image/index-04.jpg")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+.indexFour img{
+    /*width: 40%;*/
+}
+.pcSmallBox{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.swiper-container-son{
+    margin:4% auto;
+    width: 60%;
+    overflow: hidden;
+    padding-right: 2%;
+}
+.swiper-button-next{
+    right: 15%;
+    top:75%;
+}
+.swiper-button-prev{
+    left: 15%;
+    top:75%;
+}
+.swiper-container-son > .swiper-wrapper > .swiper-slide{
+    width: 100%;
+    height: 0.6rem;
+    background: white;
+    padding: 0.02rem;
+}
+.smalllogo01{
+    background: url("../image/1.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo02{
+    background: url("../image/2.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo03{
+    background: url("../image/3.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo04{
+    background: url("../image/4.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo05{
+    background: url("../image/5.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo06{
+    background: url("../image/6.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo07{
+    background: url("../image/7.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo08{
+     background: url("../image/8.png")no-repeat center;
+     width: 100%;
+     height: 100%;
+     background-size: contain;  }
+.smalllogo09{
+    background: url("../image/9.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo10{
+    background: url("../image/10.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo11{
+    background: url("../image/11.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo12{
+    background: url("../image/12.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo13{
+    background: url("../image/13.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo14{
+    background: url("../image/14.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo15{
+    background: url("../image/15.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo16{
+    background: url("../image/16.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo17{
+    background: url("../image/17.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo18{
+     background: url("../image/18.png")no-repeat center;
+     width: 100%;
+     height: 100%;
+     background-size: contain;
+}
+.smalllogo19{
+    background: url("../image/19.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.smalllogo20{
+
+}
+
+
+/***************************************荣誉资质********************************************/
+
+.indexFive{
+    background: url("../image/index-0-0.png")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 8%;
+}
+.indexFiveBox{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 58%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.indexFiveBox li{
+    width: 18%;
+    height: 2.8rem;
+    border: 1px solid #6666;
+    margin-bottom: 0.2rem;
+    background: white;
+    cursor: pointer;
+    text-align: center;
+}
+.indexFiveBox li > div{
+    padding: 0.18rem 0.1rem;
+    height: 2.1rem;
+    line-height: 2.1rem;
+}
+.indexFiveBox li p {
+    font-size: 0.12rem;
+    background: #f8f8f8;
+    padding: 0.07rem;
+}
+.indexFiveImg img{
+    width: 90%;
+}
+.indexAlert{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 500;
+    display: none;
+}
+.indexPosition{
+    /*background: white;*/
+    margin:5% auto 0;
+    text-align: center;
+}
+/*.indexPosition  img{*/
+    /*width: 30%;50*/
+/*}*/
+.indexPosition p {
+    display: none;
+}
+.offIndexAlert{
+    position: absolute;
+    top:8%;
+    left: 80%;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 0.25rem;
+    font-size: 0.2rem;
+    background: url("../image/关闭.png")no-repeat center;
+    background-size: cover;
+}
+.offIndexAlert:hover{
+    background: deepskyblue;
+    transition: 0.5s;
+}
+
+
+
+/***************************************联系我们********************************************/
+
+.indexSix{
+    background: url("../image/index-06.jpg")no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 8%;
+}
+.phoneMe{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 0.16rem;
+}
+.phoneMe p{
+    margin-bottom: 1%;
+}
+.footerText{
+    font-size: 0.13rem;
+}
+
